@@ -1,3 +1,12 @@
+import $ from 'jquery';
+import 'popper.js';
+import Chart from 'chart.js';
+import dt from 'datatables';
+import _ from 'lodash';
+import moment from 'moment';
+import 'bootstrap';
+
+
 $(document).ready(function() {
 
 	var color = Chart.helpers.color;
@@ -23,7 +32,7 @@ $(document).ready(function() {
     var waiting = _.filter(data, ['g1Review', '']),
     	suitable = _.filter(data, ['g1Review', 'suitable']),
 		unsuitable = _.filter(data, ['g1Review', 'unsuitable']),
-    	pending = _.filter(data, ['g1Review', 'pending']);
+    	pending = _.filter(data, ['g1Review', 'pending']),
     	nonApp = _.filter(data, ['g1Review', 'n/a']);
 
 	var pieConfig = {

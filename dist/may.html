@@ -6,6 +6,7 @@
 	
 	<!-- Custom js files -->
 	<script src="utils.js"></script>
+	<script src="nio-class-may.js"></script>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-56979905-8"></script>
@@ -47,35 +48,52 @@
 		<span class="navbar-toggler-icon"></span>
 		</button>
 
-		<div class="collapse navbar-collapse" id="navbarCollapse">
-		  <ul class="navbar-nav mr-auto">
-		    <li class="nav-item active">
-		      <a class="nav-link" href="./index.html">June <span class="sr-only">(current)</span></a>
-		    </li>
-		    <li class="nav-item">
-		      <a class="nav-link" href="./may.html">May</a>
-		    </li>
-		  </ul>
-		</div>
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+			<a class="navbar-brand" href="./index.html">MAVNI Monthly Report</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+			  <ul class="navbar-nav mr-auto">
+			    <li class="nav-item">
+			      <a class="nav-link" href="./index.html">June <span class="sr-only">(current)</span></a>
+			    </li>
+			    <li class="nav-item active">
+			      <a class="nav-link" href="./may.html">May</a>
+			    </li>
+			  </ul>
+			</div>
+		</nav>
     </nav>
 	<div role="main" class="container">
+		<div class="starter-template">
+	        <h1>Nio Class Monthly Status Report</h1>
+	        <p class="lead">MAY</p>
+      	</div>
+
+      	<div class="spacer"></div>
+	    <p class="lead">Monthly Status Report for Nio Class Members</p>
+      	<div id="canvas-holder">
+			<canvas id="chart-area"></canvas>
+		</div>
+
+      	<div class="spacer"></div>
+	    <p class="lead">USCIS Notified on Final Suitability by Month</p>
+		<div>
+			<canvas id="canvas"></canvas>
+		</div>
+      	
+      	<div class="spacer"></div>
 	    <p class="lead">Table</p>
 		<div>
 			<table id="entire-table" class="display">
 		        <thead>
 		            <tr>
-		                <th>Receipt</th>
-		                <!-- <th>INTERV1</th>
-		                <th>DECISION1</th>
-		                <th>RECEIPT2</th>
-		                <th>INTERV2</th>
-		                <th>DECISION2</th>
-		                <th>DECISION4</th> -->
-		                <th>Completed Interview</th>
-		                <th>Enlistment Date</th>
-		                <th>CI Screening Results</th>
-		                <th>Completed MSSD</th>
-		                <th>USCIS Final</th>
+		                <th>DTP Enlistment Date</th>
+		                <th>CI Screening result at  DODCAF</th>
+		                <th>ARMY G1 Review</th>
+		                <th>USCIS Notified on Final Suitability</th>
 		            </tr>
 		        </thead>
 		    </table>
@@ -95,7 +113,7 @@
 		
 	</div>
 
-	<script src="june.js"></script>
+	<script src="may.js"></script>
 </body>
 
 </html>

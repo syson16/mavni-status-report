@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,8 @@
     "bootstrap": "^4.1.1",
     "chart.js": "^2.7.2",
     "datatables": "^1.10.13",
+    "datatables.net-fixedcolumns": "^3.2.4",
+    "datatables.net-plugins": "^1.10.15",
     "jquery": "^3.3.1",
     "lodash": "^4.17.10",
     "moment": "^2.22.2",

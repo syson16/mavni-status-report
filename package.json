@@ -8,9 +8,15 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+<<<<<<< HEAD
     "watch": "webpack --watch",
     "start": "webpack-dev-server --open",
     "build": "webpack"
+=======
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
+>>>>>>> 1522968475152a7aff2bffeb037c50161523c9b0
   },
   "repository": {
     "type": "git",

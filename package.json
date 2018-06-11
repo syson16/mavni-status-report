@@ -8,8 +8,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
     "watch": "webpack --watch",
+    "start": "webpack-dev-server --open",
+    "build": "webpack",
     "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "repository": {
@@ -25,7 +26,8 @@
   "homepage": "https://github.com/syson16/mavni-status-report#readme",
   "devDependencies": {
     "webpack": "^4.11.1",
-    "webpack-cli": "^3.0.2"
+    "webpack-cli": "^3.0.2",
+    "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
     "bootstrap": "^4.1.1",

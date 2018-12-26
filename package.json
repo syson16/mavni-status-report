@@ -25,19 +25,19 @@
   },
   "homepage": "https://github.com/syson16/mavni-status-report#readme",
   "devDependencies": {
-    "webpack": "^4.11.1",
-    "webpack-cli": "^3.0.2",
-    "webpack-dev-server": "^3.1.4"
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
-    "bootstrap": "^4.1.1",
-    "chart.js": "^2.7.2",
-    "datatables": "^1.10.13",
-    "datatables.net-fixedcolumns": "^3.2.4",
-    "datatables.net-plugins": "^1.10.15",
+    "bootstrap": "^4.1.2",
+    "chart.js": "^2.7.3",
+    "datatables": "^1.10.18",
+    "datatables.net-fixedcolumns": "^3.2.6",
+    "datatables.net-plugins": "^1.10.18",
     "jquery": "^3.3.1",
-    "lodash": "^4.17.10",
-    "moment": "^2.22.2",
-    "popper.js": "^1.14.3"
+    "lodash": "^4.17.11",
+    "moment": "^2.23.0",
+    "popper.js": "^1.14.6"
   }
 }

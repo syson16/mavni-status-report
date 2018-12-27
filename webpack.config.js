@@ -4,7 +4,8 @@ module.exports = {
 	mode: 'production',
   	entry: {
   		may: './src/may.js',
-  		june: './src/june.js'
+  		june: './src/june.js',
+  		oct: './src/oct.js'
   	},
   	devtool: 'inline-source-map',
 	devServer: {
